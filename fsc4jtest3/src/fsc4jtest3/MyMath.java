@@ -1,5 +1,6 @@
 package fsc4jtest3;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class MyMath {
@@ -97,7 +98,7 @@ public class MyMath {
 	 * 
 	 * @pre | numbers != null
 	 * @post Voor elke geldige index `i` in numbers geldt dat numbers op index i na afloop gelijk is aan de negatie van numbers op index i bij oproep.
-	 * 	|IntStream.range(0, numbers.length).allMatch( i -> numbers[i] == -old(numbers.clone()[i]))
+	 * 	|IntStream.range(0, numbers.length).allMatch( i -> numbers[i] == -old(numbers.clone())[i])
 	 * @param numbers
 	 */
 	public static void negate (int[] numbers) {
