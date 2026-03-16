@@ -1,4 +1,4 @@
-package fsc4jtest3;
+package mymath;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,4 @@
-package fsc4jtest3;
+package mymath;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
